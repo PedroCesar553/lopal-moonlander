@@ -234,7 +234,7 @@ function consumoCombustivel() {
         moduloLunar.motorLigado = false;
     }
 }
-
+ 
 let gravidade = 0.01;
 function atracaoGravitacional() {
     moduloLunar.posicao.x += moduloLunar.velocidade.x;
